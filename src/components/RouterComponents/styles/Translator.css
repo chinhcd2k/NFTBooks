@@ -1,0 +1,269 @@
+.backgroud-translator {
+    background-image: url(../../../assets/f2e3940b9f5b385cdfa8fcbad4f0305f65654054.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.translator {
+    padding: 120px;
+    position: relative;
+    color: #d8d8d8;
+    padding-bottom: 40px;
+}
+button.button-primary{
+    margin: 20px 0 0 0 !important;
+}
+.translator .number-translator {
+    font-size: 18px;
+    color: #6d7278;
+    align-items: center;
+}
+.translator .title-translator {
+    font-size: 53px;
+    color: white;
+}
+.box1 {
+    width: 838px;
+    height: 838px;
+    background-image: linear-gradient(
+        to bottom,
+        #e48f54,
+        #e6945c,
+        #e89965,
+        #ea9f6d,
+        #eca475,
+        #eeaa7e,
+        #f0af86,
+        #f2b58f,
+        #f5bc9a,
+        #f7c4a5,
+        #facbb1,
+        #fcd3bc
+    );
+    border-radius: 100%;
+    position: absolute;
+    top: -5%;
+    right: -23%;
+}
+.box2 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(240.18deg, rgba(224, 170, 236, 0.32) 13.5%, rgba(148, 160, 227, 0.32) 73.2%);
+    border-radius: 100%;
+    position: absolute;
+    top: -3%;
+    left: -5%;
+}
+.translator .translator-header {
+    background-image: url(../../../assets/translator1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 604px;
+    position: relative;
+}
+.translator .translator-header .translator-content {
+    padding: 0 272px;
+    padding-top: 20%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%);
+    height: 604px;
+}
+.translator .translator-header .translator-content .line {
+    height: 2px;
+    width: 100px;
+    background-color: #6D7278;
+    margin-left: 4px;
+}
+.svg-1 {
+    position: absolute;
+    left: 25%;
+    top: -35px;
+}
+.translator .fixed-fee {
+    display: flex;
+
+    margin-top: 80px;
+    align-items: center;
+}
+.translator .fixed-fee .image {
+    width: 70%;
+}
+.translator .fixed-fee .content {
+    width: 30%;
+    font-size: 16px;
+
+    line-height: 28px;
+}
+.translator-button-lunch-app {
+    text-align: center;
+    padding: 77px;
+    line-height: 28px;
+    background: linear-gradient(163.23deg, rgba(255, 255, 255, 0.0001) 38.07%, rgba(240, 240, 240, 0.186708) 87.83%);
+    box-shadow: inset 1px 1px 2px #181818;
+    backdrop-filter: blur(57.0839px);
+    color: #d8d8d8;
+}
+.button-lunch-app {
+    margin-top: 30px;
+}
+.question-translator {
+    display: flex;
+    margin-top: 40px;
+}
+
+.back-to-pulic {
+    margin-top: 40px;
+
+    line-height: 28px;
+}
+.back-to-pulic .title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1440px) {
+    .translator .fixed-fee .image {
+        width: 680px;
+    }
+    .translator .fixed-fee .content {
+        width: calc(100% - 680px);
+        padding-left: 30px;
+    }
+    .question-translator .question-1 {
+        height: 500px;
+        background-size: 90%;
+    }
+    .question-translator .question-2 {
+        height: 500px;
+        background-size: 90%;
+    }
+    .question-translator .content {
+        margin-top: 15%;
+    }
+    .translator-button-lunch-app {
+        padding: 77px 405px;
+    }
+    .svg-1 {
+        top: -6%;
+    }
+    .box1 {
+        width: 838px;
+        height: 838px;
+        background-image: linear-gradient(
+            to bottom,
+            #e48f54,
+            #e6945c,
+            #e89965,
+            #ea9f6d,
+            #eca475,
+            #eeaa7e,
+            #f0af86,
+            #f2b58f,
+            #f5bc9a,
+            #f7c4a5,
+            #facbb1,
+            #fcd3bc
+        );
+        border-radius: 100%;
+        position: absolute;
+        top: -5%;
+        right: -35%;
+    }
+    .box2 {
+        width: 400px;
+        height: 400px;
+        background: linear-gradient(240.18deg, rgba(224, 170, 236, 0.32) 13.5%, rgba(148, 160, 227, 0.32) 73.2%);
+        border-radius: 100%;
+        position: absolute;
+        top: -3%;
+        left: -5%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .box1 {
+        display: none;
+    }
+    .box2 {
+        display: none;
+    }
+    .translator {
+        padding: 0;
+    }
+    .translator .translator-header .translator-content {
+        padding: 0 150px 40px;
+        padding-top: 17%;
+    }
+
+    .translator .fixed-fee {
+        display: block;
+        margin-top: 20px;
+    }
+    .translator .fixed-fee .image {
+        width: 100%;
+    }
+    .translator .fixed-fee .content {
+        width: 100%;
+        padding: 60px;
+    }
+    .translator-button-lunch-app {
+        padding: 77px 200px;
+    }
+    .translator-footer .content {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .translator .translator-header .translator-content {
+        padding: 40px;
+    }
+    .translator .fixed-fee .content {
+        padding: 40px;
+    }
+    .translator-footer .content {
+        width: 100%;
+        padding: 100px;
+    }
+    .translator-button-lunch-app {
+        padding: 77px 100px;
+    }
+    .author-footer {
+        height: unset;
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 539px){
+    .d-hidden-mobile {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 425px) {
+    .translator .fixed-fee .content {
+        padding: 20px;
+    }
+
+    .translator .translator-header .translator-content {
+        padding: 40px 20px;
+    }
+    .translator .translator-header .translator-content img {
+        display: none;
+    }
+    .d-show-mobile {
+        display: block !important;
+        text-align: center;
+        padding: 30px;
+    }
+    .d-hidden-mobile {
+        display: none !important;
+    }
+    .translator .translator-header {
+        min-height: unset !important;
+    }
+    .text-color {
+        color: #c7c7c7 !important;
+    }
+    .translator-button-lunch-app {
+        padding: 20px;
+    }
+    .translator .title-translator {
+        font-size: 24px;
+    }
+}

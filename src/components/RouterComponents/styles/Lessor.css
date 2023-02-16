@@ -1,0 +1,618 @@
+.backgroud-lessor {
+    background-image: url(../../../assets/banner-page4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+button.button-primary {
+    margin: 20px 0 0 0 !important;
+}
+
+.lessor {
+    padding: 120px;
+    position: relative;
+    color: #d8d8d8;
+    padding-bottom: 40px;
+}
+
+.lessor .number-lessor {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6D7278;
+    align-items: center;
+}
+
+.lessor .title-lessor {
+    font-size: 53px;
+    color: white;
+}
+
+.lessor .lessor-header {
+    min-height: 604px;
+    position: relative;
+}
+
+.lessor .lessor-header {
+    background-image: url(../../../assets/lessor1.jpg);
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 604px;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box1 {
+    width: 838px;
+    height: 838px;
+    background-image: linear-gradient(
+            to bottom,
+            #e48f54,
+            #e6945c,
+            #e89965,
+            #ea9f6d,
+            #eca475,
+            #eeaa7e,
+            #f0af86,
+            #f2b58f,
+            #f5bc9a,
+            #f7c4a5,
+            #facbb1,
+            #fcd3bc
+    );
+    border-radius: 100%;
+    position: absolute;
+    top: -5%;
+    right: -23%;
+}
+
+.box2 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(
+            240.18deg, rgba(224, 170, 236, 0.32) 13.5%, rgba(148, 160, 227, 0.32) 73.2%);
+    border-radius: 100%;
+    position: absolute;
+    top: -3%;
+    left: -5%;
+}
+
+.lessor .lessor-header .lessor-content {
+    padding: 20% 272px 0;
+    position: relative;
+    padding-bottom: 100px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%);
+    height: 604px;
+}
+
+.lessor .lessor-header .lessor-content .line {
+    background-color: #6D7278;
+    height: 2px;
+    width: 100px;
+    margin-left: 4px;
+}
+
+.svg-1 {
+    position: absolute;
+    left: 25%;
+    top: -35px;
+}
+
+.lessor .fixed-fee {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.lessor .fixed-fee .image {
+    width: 70%;
+    padding-right: 30px;
+}
+
+.lessor .fixed-fee .content {
+    width: 30%;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.lessor .lessor-owns-and-lends {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lessor .like-any-sector {
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.lessor .like-any-sector .image {
+    width: 60%;
+    background-color: #6236ff;
+    border-radius: 35px;
+}
+
+.lessor .like-any-sector .content {
+    width: 40%;
+    font-size: 16px;
+
+    line-height: 28px;
+    padding-right: 20px;
+}
+
+.lessor .to-mark-lessors {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.lessor .to-mark-lessors .image {
+    width: 60%;
+    border-radius: 35px;
+    padding-left: 50px;
+}
+
+.lessor .image-2-2 {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.lessor .image-2-2 img {
+    width: 50%;
+}
+
+.lessor .to-mark-lessors .content {
+    width: 40%;
+    font-size: 16px;
+
+    line-height: 28px;
+    padding-right: 20px;
+}
+
+.lessor .note-lessors {
+    margin-top: 80px;
+    line-height: 28px;
+}
+
+.lessors-button-lunch-app {
+    text-align: center;
+    padding: 77px 400px;
+    color: #d8d8d8;
+    line-height: 28px;
+    background: linear-gradient(163.23deg, rgba(255, 255, 255, 0.0001) 38.07%, rgba(240, 240, 240, 0.186708) 87.83%);
+    box-shadow: inset 1px 1px 2px #181818;
+    backdrop-filter: blur(57.0839px);
+}
+
+.button-lunch-app {
+    margin-top: 30px;
+}
+
+.question-lessor {
+    display: flex;
+    margin-top: 80px;
+}
+
+.question-lessor .question-1 {
+    /*width: 50%;*/
+    display: flex;
+    background: linear-gradient(134.72deg, #3023AE 0%, #C86DD7 101.5%);
+    border-radius: 30px;
+    position: relative;
+    justify-content: start;
+    align-items: end;
+    padding-bottom: 30px;
+}
+
+.question-lessor .question-2 {
+    display: flex;
+    /*width: 50%;*/
+    background: linear-gradient(131.44deg, #3023AE -54.98%, #6DB2D7 101.53%);
+    margin-left: 55px;
+    border-radius: 30px;
+    position: relative;
+    justify-content: start;
+    align-items: end;
+    padding-bottom: 30px;
+}
+
+#lessor .number-show {
+    width: 55px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#lessor .number-show2 {
+    width: 95px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.question-lessor .content {
+    margin-left: 55px;
+    width: 80%;
+    line-height: 28px;
+    margin-top: 180px;
+}
+
+.back-to-pulic {
+    margin-top: 40px;
+
+    line-height: 28px;
+}
+
+.back-to-pulic .title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.lessor .to-buy-the-electronic {
+    line-height: 28px;
+}
+
+@media screen and (max-width: 1440px) {
+    .lessor .fixed-fee .image {
+        width: 700px;
+    }
+
+    .lessor .fixed-fee .content {
+        width: calc(100% - 700px);
+        padding-left: 40px;
+    }
+
+    .question-lessor .question-1 {
+        /*height: 500px;*/
+        /*background-size: 90%;*/
+    }
+
+    .question-lessor .question-2 {
+        /*height: 500px;*/
+        /*background-size: 90%;*/
+    }
+
+    .question-lessor .content {
+        margin-top: 180px;
+    }
+
+    .lessor .lessor-header .lessor-content {
+        padding-bottom: 40px;
+    }
+
+    .box1 {
+        width: 838px;
+        height: 838px;
+        background-image: linear-gradient(
+                to bottom,
+                #e48f54,
+                #e6945c,
+                #e89965,
+                #ea9f6d,
+                #eca475,
+                #eeaa7e,
+                #f0af86,
+                #f2b58f,
+                #f5bc9a,
+                #f7c4a5,
+                #facbb1,
+                #fcd3bc
+        );
+        border-radius: 100%;
+        position: absolute;
+        top: -5%;
+        right: -35%;
+    }
+
+    .box2 {
+        width: 400px;
+        height: 400px;
+        background: linear-gradient(
+                240.18deg, rgba(224, 170, 236, 0.32) 13.5%, rgba(148, 160, 227, 0.32) 73.2%);
+        border-radius: 100%;
+        position: absolute;
+        top: -3%;
+        left: -5%;
+    }
+
+    .svg-1 {
+        top: -6%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .box1 {
+        display: none;
+    }
+
+    .box2 {
+        display: none;
+    }
+
+    .lessor {
+        padding: 0;
+    }
+
+    .lessor .lessor-header .lessor-content {
+        padding: 0 150px 40px;
+        padding-top: 17%;
+    }
+
+    .lessor .fixed-fee {
+        display: block;
+        margin-top: 0;
+    }
+
+    .lessor .fixed-fee .image {
+        width: 100%;
+        padding: 0 60px;
+    }
+
+    .lessor .fixed-fee .content {
+        width: 100%;
+        padding: 0 60px 30px;
+    }
+
+    .lessor .like-any-sector,
+    .lessor .to-mark-lessors {
+        padding: 60px;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .lessor .like-any-sector .image,
+    .lessor .to-mark-lessors .image {
+        width: 100%;
+    }
+
+    .lessor .like-any-sector .content,
+    .lessor .to-mark-lessors .content {
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .lessor .note-lessors {
+        padding: 60px;
+        margin-top: 0;
+    }
+
+    .lessors-button-lunch-app {
+        padding: 20px 20%;
+    }
+
+    .lessor-footer .content {
+        width: 50%;
+    }
+
+    .lessor .lessor-owns-and-lends {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .lessor .question-lessor {
+        display: block;
+    }
+
+    .lessor .question-lessor .question-1,
+    .lessor .question-lessor .question-2 {
+        /*background-size: 60%;*/
+        margin: 0 20px;
+        /*height: 600px;*/
+    }
+
+    .lessor .question-lessor .question-2 {
+        margin-top: 20px;
+    }
+
+    .lessor .question-lessor .content {
+        margin-top: 170px;
+        /*width: 50%;*/
+        /*margin-right: 22%;*/
+    }
+
+    .lessor .back-to-pulic {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .lessor .back-to-pulic .title {
+        margin-top: 0;
+    }
+
+    .lessor .to-buy-the-electronic {
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lessor .lessor-header .lessor-content {
+        padding: 0 40px 40px;
+    }
+
+    .lessor-footer .content {
+        width: 100%;
+        padding: 100px;
+    }
+
+    .lessor .question-lessor .question-1,
+    .lessor .question-lessor .question-2 {
+        /*background-size: 70%;*/
+        /*height: 500px;*/
+    }
+
+    .lessor .question-lessor .content {
+        margin-top: 40%;
+    }
+
+    .author-footer {
+        height: unset;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lessor .lessor-header {
+        min-height: unset;
+    }
+
+    .lessor .lessor-header .lessor-content {
+        padding: 40px 20px;
+    }
+
+    .lessor .lessor-header .lessor-content img {
+        display: none;
+    }
+
+    .lessor .lessor-header .lessor-content .content-label {
+        padding: 0;
+    }
+
+    .lessor .question-lessor {
+        position: relative;
+    }
+
+    .number-show {
+        position: absolute;
+        left: 32px;
+        top: 30px;
+    }
+
+    .lessor .image-2-2 {
+        padding: 20px;
+    }
+
+    .lessor .image-2-2 img {
+        width: 100%;
+    }
+
+    .group-title-button {
+        display: block !important;
+    }
+
+    .lessors-button-lunch-app {
+        padding: 20px 5%;
+    }
+
+    .lessor .fixed-fee .content,
+    .lessor .like-any-sector,
+    .lessor .to-mark-lessors,
+    .lessor .lessor-owns-and-lends,
+    .lessor .to-buy-the-electronic {
+        padding: 0 20px;
+    }
+
+    .lessor .note-lessors {
+        padding: 40px;
+    }
+
+    .lessor .question-lessor .question-1,
+    .lessor .question-lessor .question-2 {
+        /*background-size: 90%;*/
+        height: 400px;
+    }
+
+    .text-color {
+        color: #c7c7c7 !important;
+    }
+
+    .lessor .title-lessor {
+        font-size: 24px;
+        color: white;
+    }
+
+    .button-launch-app {
+        display: none;
+    }
+
+    .button-buy-tokens {
+        display: block !important;
+        text-align: center;
+        margin-top: 30px;
+        margin-right: auto;
+    }
+
+    .lessor .to-mark-lessors .image {
+        padding-left: 0;
+    }
+
+    .question-lessor .question-1 {
+        /*background-image: url(../../../assets/svg/lessor-1-mobile.svg);*/
+        /*background-size: 80%;*/
+        height: unset !important;
+        /*padding: 80px 0;*/
+    }
+
+    .lessor .question-lessor .content {
+        width: 65%;
+        margin-right: 15%;
+        margin-left: auto;
+    }
+
+    .question-lessor .question-2 {
+        /*background-image: url(../../../assets/svg/lessor-2-mobile.svg);*/
+        /*background-size: 80%;*/
+        height: unset !important;
+        /*padding: 80px 0;*/
+    }
+
+    .d-none-mobile {
+        display: none !important;
+    }
+
+    .d-show-mobile {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 536px) {
+    .lessor .question-lessor .content {
+        margin-top: 170px;
+        /*width: 50%;*/
+        /*margin-right: 22%;*/
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .lessor .fixed-fee .image {
+        padding: 0;
+        padding: 20px;
+    }
+
+    .lessor .lessor-owns-and-lends {
+        /*text-align: left;*/
+    }
+
+    .question-lessor .question-1 {
+        /*padding: 0;*/
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .number-show {
+        left: 23px;
+        top: 7px;
+    }
+
+    .question-lessor .question-2 {
+        /*padding: 40px 0;*/
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .lessor .question-lessor .content {
+        margin-top: 55%;
+    }
+}

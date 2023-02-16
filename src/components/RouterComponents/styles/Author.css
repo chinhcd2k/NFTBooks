@@ -1,0 +1,337 @@
+.backgroud-author {
+    background-image: url(../../../assets/banner-page4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.box1 {
+    width: 838px;
+    height: 838px;
+    background-image: linear-gradient(
+        to bottom,
+        #e48f54,
+        #e6945c,
+        #e89965,
+        #ea9f6d,
+        #eca475,
+        #eeaa7e,
+        #f0af86,
+        #f2b58f,
+        #f5bc9a,
+        #f7c4a5,
+        #facbb1,
+        #fcd3bc
+    );
+    border-radius: 100%;
+    position: absolute;
+    top: -5%;
+    right: -23%;
+}
+.box2 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient( 
+240.18deg, rgba(224, 170, 236, 0.32) 13.5%, rgba(148, 160, 227, 0.32) 73.2%);
+    border-radius: 100%;
+    position: absolute;
+    top: -3%;
+    left: -5%;
+}
+.author {
+    padding: 120px;
+    position: relative;
+    color: #d8d8d8;
+    padding-bottom: 40px;
+}
+.author .number-author {
+    font-size: 18px;
+    color: #6d7278;
+}
+.author .title-author {
+    font-size: 53px;
+    color: white;
+    line-height: 70px;
+}
+.author .author-header {
+    background-image: url(../../../assets/author.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 604px;
+    z-index: 100;
+    position: relative;
+}
+.author .author-header .author-content {
+    padding: 0 272px;
+    padding-top: 20%;
+    background: linear-gradient( 180deg, rgba(0, 0, 0, 0.0001) 0%, #000000 100%);
+    height: 604px;
+}
+
+.author .author-header .author-content .line {
+    background-color: #6D7278;
+    margin-left: 4px;
+    height: 2px;
+    width: 100px;
+}
+.svg-1 {
+    position: absolute;
+    left: 25%;
+    top: -35px;
+}
+.author .fixed-fee {
+    display: flex;
+    color: #fff;
+    margin-top: 80px;
+    align-items: center;
+}
+.author .fixed-fee .image {
+    width: 704px;
+}
+.author .fixed-fee .content {
+    width: calc(100% - 704px);
+    color: #d8d8d8;
+    font-size: 16px;
+    line-height: 28px;
+}
+.author .like-any-sector {
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+}
+.author .like-any-sector .image {
+    width: 704px;
+    background-color: #6236ff;
+    border-radius: 35px;
+}
+.author .like-any-sector .content {
+    width: calc(100% - 704px);
+    font-size: 16px;
+    line-height: 28px;
+    padding-right: 40px;
+    color: #d8d8d8;
+}
+.author .to-mark-authors {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+.author .to-mark-authors .image {
+    width: 704px;
+    border-radius: 35px;
+    padding-left: 50px;
+}
+.author .to-mark-authors .content {
+    width: calc(100% - 704px);
+    font-size: 16px;
+    line-height: 28px;
+    color: #d8d8d8;
+    padding-right: 20px;
+}
+.author .to-mark-authors-sub {
+    font-size: 16px;
+    line-height: 28px;
+    color: #d8d8d8;
+    margin-top: 20px;
+}
+.author .note-authors {
+    color: #fff;
+    margin-top: 80px;
+    line-height: 28px;
+}
+.button-lunch-app {
+    margin-top: 30px;
+}
+.authors-button-lunch-app {
+    text-align: center;
+    padding: 77px 400px;
+    color: #d8d8d8;
+    line-height: 28px;
+    background: linear-gradient(163.23deg, rgba(255, 255, 255, 0.0001) 38.07%, rgba(240, 240, 240, 0.186708) 87.83%);
+    box-shadow: inset 1px 1px 2px #181818;
+    backdrop-filter: blur(57.0839px);
+}
+@media screen and (max-width: 1440px) {
+    .author-footer .content {
+        width: 40%;
+    }
+    .author .author-header .author-content {
+        padding: 0 184px;
+        padding-top: 20%;
+        padding-bottom: 40px;
+    }
+    .box1 {
+        width: 838px;
+        height: 838px;
+        background-image: linear-gradient(
+            to bottom,
+            #e48f54,
+            #e6945c,
+            #e89965,
+            #ea9f6d,
+            #eca475,
+            #eeaa7e,
+            #f0af86,
+            #f2b58f,
+            #f5bc9a,
+            #f7c4a5,
+            #facbb1,
+            #fcd3bc
+        );
+        border-radius: 100%;
+        position: absolute;
+        top: -5%;
+        right: -35%;
+    }
+    .box2 {
+        width: 400px;
+        height: 400px;
+        background: linear-gradient( 
+    240.18deg, rgba(224, 170, 236, 0.32) 13.5%, rgba(148, 160, 227, 0.32) 73.2%);
+        border-radius: 100%;
+        position: absolute;
+        top: -3%;
+        left: -5%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .author {
+        padding: 0;
+    }
+    .author .author-header .author-content {
+        padding: 0 150px 40px;
+        padding-top: 17%;
+    }
+    .svg-1 {
+        position: absolute;
+        left: 20%;
+        top: -36px;
+    }
+    .author .fixed-fee {
+        display: block;
+        margin-top: 0px;
+    }
+    .author .fixed-fee .image {
+        width: 100%;
+    }
+    .author .fixed-fee .content {
+        width: 100%;
+        padding: 60px 60px 0;
+    }
+    .author .like-any-sector,
+    .author .to-mark-authors {
+        padding: 60px 60px 0;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .author .like-any-sector .image,
+    .author .to-mark-authors .image {
+        width: 100%;
+    }
+    .author .like-any-sector .content,
+    .author .to-mark-authors .content {
+        margin-top: 60px;
+        width: 100%;
+    }
+    .author .to-mark-authors-sub {
+        padding: 0 60px;
+    }
+    .author .note-authors {
+        padding: 60px;
+        margin-top: 0;
+    }
+    .authors-button-lunch-app {
+        padding: 40px 200px;
+    }
+    .author-footer .content {
+        width: 50%;
+    }
+    .box1{
+        display: none;
+    }
+    .box2{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .author .author-header .author-content {
+        padding: 0 40px 40px;
+    }
+    .author-footer {
+        height: unset;
+    }
+    .author-footer .content {
+        width: 100%;
+        padding: 100px;
+    }
+    .authors-button-lunch-app {
+        padding: 40px 100px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .author .author-header .author-content {
+        padding: 40px 20px;
+    }
+    .author .author-header .author-content img {
+        display: none;
+    }
+    .group-title-button {
+        display: block !important;
+    }
+    .authors-button-lunch-app {
+        padding: 20px 5%;
+    }
+    .author .fixed-fee .content,
+    .author .like-any-sector,
+    .author .to-mark-authors,
+    .author .to-mark-authors-sub {
+        padding: 20px;
+    }
+
+    .author .note-authors {
+        padding: 40px;
+    }
+    .author-footer .content {
+        padding: 20px;
+    }
+    .author .author-header {
+        min-height: unset;
+    }
+    .text-color {
+        color: #6d7278 !important;
+    }
+    .author .title-author {
+        font-size: 24px;
+        color: white;
+    }
+    .button-launch-app {
+        display: none;
+    }
+    #author .button-buy-tokens {
+        display: flex !important;
+        text-align: center;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .author .to-mark-authors .image {
+        padding-left: 0;
+    }
+    .author .to-mark-authors {
+        display: flex;
+        flex-direction: column;
+    }
+    .author .to-mark-authors .content {
+        margin-top: 0;
+        padding-right: 0;
+    }
+    .author .like-any-sector .content {
+        margin-top: 24px;
+        padding-right: 0;
+    }
+    .author .like-any-sector{
+        background: linear-gradient(
+                200deg, rgba(255, 255, 255, 0.001) 10%, rgba(240, 240, 240, 0.186708) 87.83%);
+    }
+}

@@ -1,0 +1,202 @@
+#how-to-buy {
+    background-color: #020818;
+    position: relative;
+    overflow: hidden;
+}
+
+#how-to-buy .container-how {
+    margin-left: 125px;
+}
+
+#how-to-buy .header-top {
+    position: relative;
+    z-index: 10;
+    margin-bottom: 48px;
+}
+
+#how-to-buy .header-top .title h1 {
+    color: #5255CD;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+#how-to-buy .header-top .title p {
+    color: #6D7278;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 560px;
+}
+
+#how-to-buy .title-item p {
+    margin-bottom: 0px;
+}
+
+#how-to-buy .header-top .title p b {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 560px;
+}
+
+#how-to-buy .content {
+    display: flex;
+}
+
+#how-to-buy .content .button-nav {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#how-to-buy .content .button-nav .buy-token-btn {
+    margin-bottom: 48px;
+}
+
+#how-to-buy .title-content {
+    padding-top: 36px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+#how-to-buy .title-1 {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-bottom: 30px !important;
+}
+
+#how-to-buy .title-content-mobile {
+    display: none;
+    visibility: hidden;
+    margin-top: 30px;
+}
+
+#how-to-buy .title-2 {
+    font-size: 16px;
+    color: #6d7278;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px !important;
+}
+
+#how-to-buy .title-item {
+    height: calc(100% / 3);
+}
+
+#how-to-buy .title-content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 405px;
+    margin-right: 100px;
+    flex-shrink: 0;
+}
+
+#how-to-buy .title-content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 405px;
+}
+
+@media screen and (max-width: 539px) {
+    #how-to-buy .title-content {
+        display: none !important;
+        visibility: hidden;
+    }
+
+    #how-to-buy .title-content-mobile {
+        display: block;
+        visibility: visible;
+    }
+
+    #how-to-buy .content {
+        display: block;
+    }
+
+    #how-to-buy .header-top .title p {
+        max-width: 340px !important;
+        word-break: break-word;
+    }
+
+    #how-to-buy .container-how {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+    #how-to-buy .header-top .title h1{
+        font-size: 26px;
+    }
+    #how-to-buy .content .button-nav{
+        justify-content: center;
+        align-items: center;
+    }
+    #how-to-buy .title-1{
+        margin-bottom: 10px!important;
+    }
+    #how-to-buy .title-2{
+        margin-bottom: 30px!important;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 539px){
+    #how-to-buy .title-content {
+        display: none !important;
+        visibility: hidden;
+    }
+
+    #how-to-buy .title-content-mobile {
+        display: block;
+        visibility: visible;
+    }
+
+    #how-to-buy .content {
+        display: block;
+    }
+
+    #how-to-buy .header-top .title p {
+        max-width: 100% !important;
+        word-break: break-word;
+    }
+
+    #how-to-buy .container-how {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+    #how-to-buy .header-top .title h1{
+        font-size: 53px;
+    }
+    #how-to-buy .content .button-nav{
+        justify-content: center;
+        align-items: center;
+    }
+    #how-to-buy .title-1{
+        margin-bottom: 10px!important;
+    }
+    #how-to-buy .title-2{
+        margin-bottom: 30px!important;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+    #how-to-buy .title-content-left{
+        flex-shrink: 1;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #how-to-buy .title-content-mobile {
+        display: none;
+        visibility: hidden;
+    }
+
+}
+
+@media screen and (min-width: 1700px) {
+    #how-to-buy .container-how {
+        display: flex;
+        justify-content: center;
+    }
+}
+
